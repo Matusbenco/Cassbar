@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kontakt | Cassbar Košice</title>
+    <meta name="description" content="Nájdete nás na Dominikánskom námestí v Košiciach. Pozrite si otváracie hodiny a mapu." />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <link rel="stylesheet" href="style.css?v=FINAL_1.2" />
+</head>
+<body class="antialiased">
+<div class="concert-lights-bg"></div>
+<nav class="fixed top-0 left-0 right-0 z-50 content-backdrop border-b border-cassbar-accent/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <a class="flex items-center space-x-2 hover-lift z-10" href="index.html"><span class="header-logo-font">CASSBAR</span></a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a class="text-cassbar-light hover:text-cassbar-accent transition-all duration-300 font-condensed font-bold tracking-wider text-sm relative group" href="index.html">DOMOV<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cassbar-accent transition-all duration-300 group-hover:w-full pulse-glow"></span></a>
+                <a class="text-cassbar-light hover:text-cassbar-accent transition-all duration-300 font-condensed font-bold tracking-wider text-sm relative group" href="o-nas.html">O NÁS<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cassbar-accent transition-all duration-300 group-hover:w-full pulse-glow"></span></a>
+                <a class="text-cassbar-light hover:text-cassbar-accent transition-all duration-300 font-condensed font-bold tracking-wider text-sm relative group" href="napojovy-listok.html">NÁPOJOVÝ LÍSTOK<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cassbar-accent transition-all duration-300 group-hover:w-full pulse-glow"></span></a>
+                <a class="text-cassbar-light hover:text-cassbar-accent transition-all duration-300 font-condensed font-bold tracking-wider text-sm relative group" href="kontakt.html">KONTAKT<span class="absolute -bottom-1 left-0 w-full h-0.5 bg-cassbar-accent pulse-glow"></span></a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium h-9 rounded-md px-3 text-cassbar-light hover:text-cassbar-accent">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="mobile-menu-container md:hidden">
+             <a class="block text-center py-3 text-cassbar-light hover:text-cassbar-accent hover:bg-black/20 font-condensed font-bold tracking-wider" href="index.html">DOMOV</a>
+             <a class="block text-center py-3 text-cassbar-light hover:text-cassbar-accent hover:bg-black/20 font-condensed font-bold tracking-wider" href="o-nas.html">O NÁS</a>
+             <a class="block text-center py-3 text-cassbar-light hover:text-cassbar-accent hover:bg-black/20 font-condensed font-bold tracking-wider" href="napojovy-listok.html">NÁPOJOVÝ LÍSTOK</a>
+             <a class="block text-center py-3 text-cassbar-light hover:text-cassbar-accent hover:bg-black/20 font-condensed font-bold tracking-wider" href="kontakt.html">KONTAKT</a>
+        </div>
+    </div>
+</nav>
+<main class="relative z-10 pt-24 pb-12">
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h1 class="font-display text-4xl md:text-6xl text-cassbar-light mb-4 tracking-wider enhanced-glow">KDE NÁS NÁJDETE & KONTAKT</h1>
+                <div class="w-32 h-1 bg-cassbar-accent mx-auto pulse-glow"></div>
+            </div>
+            <div class="max-w-6xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-12 items-start mb-16">
+                     <div class="grid md:grid-cols-2 gap-12 items-start mb-16">
+                    <div class="w-full rounded-lg overflow-hidden shadow-lg border border-cassbar-accent/20" style="height: 400px;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2632.2219979203114!2d21.2510205767718!3d48.720349610410615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ee0658a884191%3A0x717b32fce5b7b92f!2sCassbar!5e0!3m2!1ssk!2ssk!4v1755107426017!5m2!1ssk!2ssk" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="font-condensed">
+                        <h3 class="menu-category-title">Napíšte nám</h3>
+                        <form action="https://formspree.io/f/xyzjaepv" method="POST" class="space-y-6">
+                            <div><input type="email" name="email" required class="w-full bg-black/30 border border-cassbar-light/20 rounded-md p-3 text-cassbar-light focus:ring-cassbar-accent focus:border-cassbar-accent transition-colors" placeholder="Váš Email"></div>
+                            <div><textarea name="message" rows="5" required class="w-full bg-black/30 border border-cassbar-light/20 rounded-md p-3 text-cassbar-light focus:ring-cassbar-accent focus:border-cassbar-accent transition-colors" placeholder="Vaša správa..."></textarea></div>
+                            <div><button type="submit" class="w-full bg-cassbar-accent text-cassbar-dark font-bold py-3 px-4 rounded-md hover:bg-cassbar-accent/80 transition-colors hover-lift">Odoslať správu</button></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="info-block">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div class="font-condensed">
+                            <h3 class="menu-category-title">Adresa</h3>
+                            <p class="text-lg text-cassbar-light/90">Dominikánske námestie 35<br>040 01 Košice - Staré Mesto</p>
+                        </div>
+                        <div class="font-condensed">
+                            <h3 class="menu-category-title">Otváracie Hodiny</h3>
+                            <ul class="menu-list">
+                                <li><span>Pondelok - Štvrtok</span><span class="menu-item-filler"></span><span>18:00 – 02:00</span></li>
+                                <li><span>Piatok - Sobota</span><span class="menu-item-filler"></span><span>18:00 – 03:00</span></li>
+                                <li><span>Nedeľa</span><span class="menu-item-filler"></span><span class="text-cassbar-accent">Zatvorené</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="py-12 bg-black/80 content-backdrop border-t border-cassbar-accent/20">
+    <div class="container mx-auto px-4 text-center text-cassbar-light/60">
+         <div class="flex justify-center space-x-6 mb-4">
+            <a href="https://www.facebook.com/" target="_blank" class="social-icon" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg></a>
+            <a href="https://www.instagram.com/" target="_blank" class="social-icon" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664 4.771 4.919-4.919 1.266-.057 1.644-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.947s-.014-3.667-.072-4.947c-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759-6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"/></svg></a>
+         </div>
+         <p>© 2025 CASSBAR. Všetky práva vyhradené.</p>
+         <a href="https://unoneto.eu" target="_blank" rel="noopener noreferrer" class="text-xs mt-4 block text-cassbar-light/60 hover:text-cassbar-accent transition-colors duration-300">Vytvoril Matúš Benčo - Unoneto.eu</a>
+    </div>
+</footer>
+
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  
+  formbutton("create", {
+    action: "https://formspree.io/f/xyzjaepv",
+    title: "Máte otázku?",
+    styles: {
+      title: {
+        backgroundColor: "#D32F2F"
+      },
+      button: {
+        backgroundColor: "#D32F2F"
+      }
+    }
+  });
+</script>
+</body>
+</html>
