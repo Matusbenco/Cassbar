@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (mobileMenuButton && mobileMenu) {
         mobileMenuButton.addEventListener('click', function () {
-            // Prepíname triedu 'open', ktorá spúšťa animáciu v CSS
             mobileMenu.classList.toggle('open');
         });
     }
