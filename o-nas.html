@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Náš príbeh | Cassbar Košice</title>
-    <meta name="description" content="Cassbar nie je len bar. Je to útočisko pre všetkých, ktorí hľadajú autentický priestor s dušou, kde vládne hardcore, punk a alternatívna hudba." />
+    <title>Nápojový lístok | Cassbar Košice</title>
+    <meta name="description" content="Pozri si našu ponuku pív, rumov, drinkov a ďalších nápojov v Cassbare." />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
-    <link rel="stylesheet" href="style.css?v=FINAL_VERSION" />
+    <link rel="stylesheet" href="style.css?v=FINAL" />
 </head>
 <body class="antialiased">
 <div class="concert-lights-bg"></div>
@@ -17,17 +17,17 @@
             <a class="flex items-center space-x-2 hover-lift z-10" href="index.html"><span class="header-logo-font">CASSBAR</span></a>
             <div class="hidden md:flex items-center space-x-8">
                 <a class="text-cassbar-light hover:text-cassbar-accent transition-all duration-300 font-condensed font-bold tracking-wider text-sm relative group" href="index.html">DOMOV<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cassbar-accent transition-all duration-300 group-hover:w-full pulse-glow"></span></a>
-                <a class="text-cassbar-light hover:text-cassbar-accent transition-all duration-300 font-condensed font-bold tracking-wider text-sm relative group" href="o-nas.html">O NÁS<span class="absolute -bottom-1 left-0 w-full h-0.5 bg-cassbar-accent pulse-glow"></span></a>
-                <a class="text-cassbar-light hover:text-cassbar-accent transition-all duration-300 font-condensed font-bold tracking-wider text-sm relative group" href="napojovy-listok.html">NÁPOJOVÝ LÍSTOK<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cassbar-accent transition-all duration-300 group-hover:w-full pulse-glow"></span></a>
+                <a class="text-cassbar-light hover:text-cassbar-accent transition-all duration-300 font-condensed font-bold tracking-wider text-sm relative group" href="o-nas.html">O NÁS<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cassbar-accent transition-all duration-300 group-hover:w-full pulse-glow"></span></a>
+                <a class="text-cassbar-light hover:text-cassbar-accent transition-all duration-300 font-condensed font-bold tracking-wider text-sm relative group" href="napojovy-listok.html">NÁPOJOVÝ LÍSTOK<span class="absolute -bottom-1 left-0 w-full h-0.5 bg-cassbar-accent pulse-glow"></span></a>
                 <a class="text-cassbar-light hover:text-cassbar-accent transition-all duration-300 font-condensed font-bold tracking-wider text-sm relative group" href="kontakt.html">KONTAKT<span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-cassbar-accent transition-all duration-300 group-hover:w-full pulse-glow"></span></a>
             </div>
             <div class="md:hidden">
                 <button id="mobile-menu-button" class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium h-9 rounded-md px-3 text-cassbar-light hover:text-cassbar-accent">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
                 </button>
             </div>
         </div>
-        <div id="mobile-menu" class="mobile-menu-container md:hidden">
+        <div id="mobile-menu" class="mobile-menu-container md:hidden flex flex-col">
              <a class="block text-center py-3 text-cassbar-light hover:text-cassbar-accent hover:bg-black/20 font-condensed font-bold tracking-wider" href="index.html">DOMOV</a>
              <a class="block text-center py-3 text-cassbar-light hover:text-cassbar-accent hover:bg-black/20 font-condensed font-bold tracking-wider" href="o-nas.html">O NÁS</a>
              <a class="block text-center py-3 text-cassbar-light hover:text-cassbar-accent hover:bg-black/20 font-condensed font-bold tracking-wider" href="napojovy-listok.html">NÁPOJOVÝ LÍSTOK</a>
@@ -38,56 +38,70 @@
 <main class="relative z-10 pt-24 pb-12">
     <section class="py-16">
         <div class="container mx-auto px-4">
-            <div class="text-center mb-12">
-                <h1 class="font-display text-4xl md:text-6xl text-cassbar-light mb-4 tracking-wider enhanced-glow">NÁŠ PRÍBEH</h1>
+            <div class="text-center mb-16">
+                <h1 class="font-display text-4xl md:text-6xl text-cassbar-light mb-4 tracking-wider enhanced-glow">NÁPOJOVÝ LÍSTOK</h1>
                 <div class="w-32 h-1 bg-cassbar-accent mx-auto pulse-glow"></div>
             </div>
-            <div class="max-w-4xl mx-auto">
-                <div class="font-condensed text-lg text-cassbar-light text-center leading-relaxed">
-                    <p class="mb-8">V srdci Košíc, v spleti historických uličiek, dlho chýbalo miesto, ktoré by bilo v rytme nekompromisnej hudby. Miesto, kde by sa surová energia hardcoru a punku mohla stretnúť s otvorenou mysľou a priateľskou atmosférou. Z tejto túžby, z potreby vytvoriť útočisko pre všetkých, ktorým v žilách koluje rebelantská krv, sa zrodil Cassbar.</p>
-                    <p class="mb-8">Nie sme len steny a barový pult. Sme tvoja druhá obývačka, kde na stenách visia spomienky na legendárne koncerty a vo vzduchu cítiť spolupatričnosť. Od prvého momentu, ako k nám vstúpiš, pochopíš, že toto je priestor bez pretvárky. Priestor, kde je každý vítaný taký, aký je. Miesto, kde sa neznámi stávajú priateľmi pri pohári dobrého piva alebo kvalitného rumu a kde sa debaty o hudbe a živote vedú až do skorých ranných hodín.</p>
-                    <p>Našou misiou je jednoduchá: udržiavať pri živote ducha košického undergroundu. Ponúkať poctivé drinky za férové ceny, púšťať hudbu, ktorá má názor a energiu, a vytvárať priestor pre zážitky, na ktoré sa nezabúda. Či už si prišiel na koncert svojej obľúbenej kapely, alebo si len chceš v kľude posedieť s priateľmi, v Cassbare vždy nájdeš svoje miesto. Sme hrdí na to, čím sme – autentickým kúskom podzemia v centre mesta.</p>
+            <div class="grid md:grid-cols-2 gap-x-12 gap-y-16 max-w-5xl mx-auto">
+                <div class="menu-category">
+                    <h2 class="menu-category-title">Pivá</h2>
+                    <ul class="menu-list">
+                        <li><span>Zlatý Bažant '73 0,5l (čapované)</span><span class="menu-item-filler"></span><span>2,20 €</span></li>
+                        <li><span>Šariš Tmavý 0,5l (čapované)</span><span class="menu-item-filler"></span><span>2,30 €</span></li>
+                        <li><span>Pilsner Urquell 0,5l (fľaša)</span><span class="menu-item-filler"></span><span>2,50 €</span></li>
+                        <li><span>Rebel IPA 0,5l (fľaša)</span><span class="menu-item-filler"></span><span>3,50 €</span></li>
+                        <li><span>Kingswood Cider 0,4l (fľaša)</span><span class="menu-item-filler"></span><span>2,80 €</span></li>
+                    </ul>
                 </div>
-                <hr class="border-cassbar-accent/20 my-16">
-                <div class="grid md:grid-cols-3 gap-12 text-center">
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
-                        <h3 class="font-display text-2xl text-cassbar-light mb-2">HUDBA, KTORÁ MÁ DUŠU</h3>
-                        <p class="font-condensed text-cassbar-light/70">Od hardcoru cez punk až po alternatívu. U nás má kvalitná a tvrdá hudba vždy zelenú.</p>
-                    </div>
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                        <h3 class="font-display text-2xl text-cassbar-light mb-2">KOMUNITA, NIE DAV</h3>
-                        <p class="font-condensed text-cassbar-light/70">Sme miesto, kde nikto nie je cudzinec. Rešpekt a priateľská atmosféra sú naším základom.</p>
-                    </div>
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feature-icon"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5s-3 3.5-3 5.5a7 7 0 0 0 7 7z"/><path d="M12 22v-2.5"/></svg>
-                        <h3 class="font-display text-2xl text-cassbar-light mb-2">POCTIVÉ DRINKY</h3>
-                        <p class="font-condensed text-cassbar-light/70">Široký výber rumov, kvalitná whisky a dobre vychladené pivo. Bez zbytočných výmyslov.</p>
-                    </div>
+                <div class="menu-category">
+                    <h2 class="menu-category-title">Vína (0,1l)</h2>
+                    <ul class="menu-list">
+                        <li><span>Biele (rozlievané)</span><span class="menu-item-filler"></span><span>2,00 €</span></li>
+                        <li><span>Červené (rozlievané)</span><span class="menu-item-filler"></span><span>2,00 €</span></li>
+                    </ul>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="py-20 relative z-10 content-backdrop">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="font-display text-4xl md:text-6xl text-cassbar-light mb-4 tracking-wider enhanced-glow">ZACHYTENÉ MOMENTY</h2>
-                <div class="w-32 h-1 bg-cassbar-accent mx-auto mb-6 pulse-glow"></div>
-            </div>
-            <div class="swiper gallery-swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><a href="casbar1.jpg" class="glightbox" data-gallery="cassbar-gallery"><img src="casbar1.jpg" alt="Pohľad na bar v Cassbare" class="gallery-item-img" /></a></div>
-                    <div class="swiper-slide"><a href="casbar2.jpg" class="glightbox" data-gallery="cassbar-gallery"><img src="casbar2.jpg" alt="Priestory na sedenie v Cassbare" class="gallery-item-img" /></a></div>
-                    <div class="swiper-slide"><a href="casbar3.jpg" class="glightbox" data-gallery="cassbar-gallery"><img src="casbar3.jpg" alt="Stena s plagátmi kapiel" class="gallery-item-img" /></a></div>
-                    <div class="swiper-slide"><a href="casbar4.jpg" class="glightbox" data-gallery="cassbar-gallery"><img src="casbar4.jpg" alt="Výzdoba a atmosféra podniku" class="gallery-item-img" /></a></div>
-                    <div class="swiper-slide"><a href="casbar5.jpg" class="glightbox" data-gallery="cassbar-gallery"><img src="casbar5.jpg" alt="Detail interiéru Cassbaru" class="gallery-item-img" /></a></div>
-                    <div class="swiper-slide"><a href="casbar6.jpg" class="glightbox" data-gallery="cassbar-gallery"><img src="casbar6.jpg" alt="Miesto na posedenie s priateľmi" class="gallery-item-img" /></a></div>
-                    <div class="swiper-slide"><a href="casbar7.jpg" class="glightbox" data-gallery="cassbar-gallery"><img src="casbar7.jpg" alt="Stena slávy s podpismi" class="gallery-item-img" /></a></div>
-                    <div class="swiper-slide"><a href="casbar8.jpg" class="glightbox" data-gallery="cassbar-gallery"><img src="casbar8.jpg" alt="Pohľad do priestoru Cassbaru" class="gallery-item-img" /></a></div>
+                <div class="menu-category">
+                    <h2 class="menu-category-title">Nealko & Káva</h2>
+                    <ul class="menu-list">
+                        <li><span>Kofola (čapovaná) 0,5l</span><span class="menu-item-filler"></span><span>1,80 €</span></li>
+                        <li><span>Coca-Cola / Sprite 0,33l</span><span class="menu-item-filler"></span><span>2,00 €</span></li>
+                        <li><span>Džús (pomaranč, jablko) 0,2l</span><span class="menu-item-filler"></span><span>1,80 €</span></li>
+                        <li><span>Rajec sýtená / nesýtená 0,33l</span><span class="menu-item-filler"></span><span>1,50 €</span></li>
+                        <li><span>Red Bull 0,25l</span><span class="menu-item-filler"></span><span>3,00 €</span></li>
+                        <li><span>Espresso</span><span class="menu-item-filler"></span><span>1,80 €</span></li>
+                    </ul>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="menu-category">
+                    <h2 class="menu-category-title">Tvrdý Alkohol (0,04l)</h2>
+                    <ul class="menu-list">
+                        <li><span>Nicolaus Vodka</span><span class="menu-item-filler"></span><span>2,00 €</span></li>
+                        <li><span>Finlandia Vodka</span><span class="menu-item-filler"></span><span>2,80 €</span></li>
+                        <li><span>Captain Morgan Spiced</span><span class="menu-item-filler"></span><span>2,50 €</span></li>
+                        <li><span>Diplomático Reserva</span><span class="menu-item-filler"></span><span>5,00 €</span></li>
+                        <li><span>Jameson / Tullamore D.E.W.</span><span class="menu-item-filler"></span><span>3,00 €</span></li>
+                        <li><span>Jack Daniel's</span><span class="menu-item-filler"></span><span>3,50 €</span></li>
+                        <li><span>Beefeater Gin</span><span class="menu-item-filler"></span><span>2,80 €</span></li>
+                        <li><span>Jägermeister / Fernet Stock</span><span class="menu-item-filler"></span><span>2,80 €</span></li>
+                        <li><span>Božkov Slivovica</span><span class="menu-item-filler"></span><span>2,20 €</span></li>
+                        <li><span>Jose Cuervo Silver</span><span class="menu-item-filler"></span><span>3,00 €</span></li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <h2 class="menu-category-title">Miešané Drinky</h2>
+                    <ul class="menu-list">
+                        <li><span>Cuba Libre</span><span class="menu-item-filler"></span><span>4,50 €</span></li>
+                        <li><span>Gin & Tonic</span><span class="menu-item-filler"></span><span>5,00 €</span></li>
+                        <li><span>Jägerbomba</span><span class="menu-item-filler"></span><span>4,00 €</span></li>
+                    </ul>
+                </div>
+                <div class="menu-category">
+                    <h2 class="menu-category-title">Niečo pod zub</h2>
+                    <ul class="menu-list">
+                        <li><span>Utopenec s cibuľou a chlebom</span><span class="menu-item-filler"></span><span>3,50 €</span></li>
+                        <li><span>Nakladaný hermelín s chlebom</span><span class="menu-item-filler"></span><span>4,00 €</span></li>
+                        <li><span>Chipsy / Arašidy</span><span class="menu-item-filler"></span><span>1,50 €</span></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -102,22 +116,9 @@
          <a href="https://unoneto.eu" target="_blank" rel="noopener noreferrer" class="text-xs mt-4 block text-cassbar-light/60 hover:text-cassbar-accent transition-colors duration-300">Vytvoril Matúš Benčo - Unoneto.eu</a>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
-<script>
-  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-  
-  formbutton("create", {
-    action: "https://formspree.io/f/xyzjaepv",
-    title: "Máte otázku?",
-    styles: {
-      title: {
-        backgroundColor: "#D32F2F"
-      },
-      button: {
-        backgroundColor: "#D32F2F"
-      }
-    }
-  });
-</script>
+<script src="script.js"></script>
 </body>
 </html>
